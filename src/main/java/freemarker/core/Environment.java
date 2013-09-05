@@ -53,6 +53,8 @@
 package freemarker.core;
 
 import freemarker.core.exception.StopException;
+import freemarker.core.exception._MiscTemplateException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.*;
 import freemarker.core.util.EvalUtil;
 import freemarker.core.util.MessageUtil;
@@ -782,7 +784,7 @@ public final class Environment extends Configurable {
      * The function caches the return value, so it's quick to call it
      * repeately. 
      */
-    String getEffectiveURLEscapingCharset() {
+    public String getEffectiveURLEscapingCharset() {
         if (!urlEscapingCharsetCached) {
             cachedURLEscapingCharset = getURLEscapingCharset();
             if (cachedURLEscapingCharset == null) {

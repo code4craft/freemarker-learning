@@ -52,6 +52,8 @@
 
 package freemarker.template;
 
+import freemarker.template.template_model.TemplateDateModel;
+
 /**
  * A simple implementation of the <tt>TemplateDateModel</tt>
  * interface. Note that this class is immutable.

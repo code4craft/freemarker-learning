@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import freemarker.template.utility.ClassUtil;

@@ -52,8 +52,6 @@
 
 package freemarker.template.template_model;
 
-import freemarker.template.TemplateCollectionModel;
-
 /**
  * "extended hash" template language data type; extends {@link TemplateHashModel} by allowing
  * iterating through its keys and values.

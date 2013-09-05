@@ -50,26 +50,58 @@
  * http://www.visigoths.org/
  */
 
-package freemarker.template;
+package freemarker.template.template_model;
 
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
-import freemarker.template.template_model.TemplateModelIterator;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
 
 /**
- * "collection" template language data type: a collection of values that can be enumerated, repeatedly (not just once).
- * This is very similar to {@link freemarker.template.template_model.TemplateSequenceModel}, but it doesn't support indexed (random) access and
- * its size can't be queried.
- *  
- * <p>They are mostly used in template languages like {@code <#list myCollection as i>...</#list>}.  
+ * "date" template language data type: similar to {@link java.util.Date}; a time-zone-independent date-only, time-only
+ * or date-time value. Contrary to Java, FreeMarker distinguishes values that represent only a time, only a date, or a
+ * combined date and time.
  *
- * @author Attila Szegedi, szegedia at users dot sourceforge dot net
+ * @author Attila Szegedi
  */
-public interface TemplateCollectionModel extends TemplateModel {
+public interface TemplateDateModel extends TemplateModel {
+    
+    /**
+     * It is not known whether the date represents a time-only, a date-only, or a date-time value.
+     * This often leads to exceptions in templates due to ambiguities it causes, so avoid it if possible.
+     */
+    public static final int UNKNOWN = 0;
 
     /**
-     * Retrieves a template model iterator that is used to iterate over
-     * the elements in this collection.
+     * The date model represents a time-only value.
      */
-    public TemplateModelIterator iterator() throws TemplateModelException;
+    public static final int TIME = 1;
+
+    /**
+     * The date model represents a date-only value.
+     */
+    public static final int DATE = 2;
+
+    /**
+     * The date model represents a date-time value.
+     */
+    public static final int DATETIME = 3;
+    
+    public static final List TYPE_NAMES =
+        Collections.unmodifiableList(
+            Arrays.asList(
+                new String[] {
+                    "UNKNOWN", "TIME", "DATE", "DATETIME"
+                }));
+    /**
+     * Returns the date value. The return value must not be {@code null}.
+     */
+    public Date getAsDate() throws TemplateModelException;
+
+    /**
+     * Returns the type of the date. It can be any of <tt>TIME</tt>, 
+     * <tt>DATE</tt>, or <tt>DATETIME</tt>.
+     */
+    public int getDateType();
+    
 }

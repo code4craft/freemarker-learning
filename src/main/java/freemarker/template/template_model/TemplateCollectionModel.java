@@ -50,43 +50,22 @@
  * http://www.visigoths.org/
  */
 
-package freemarker.template;
-
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
+package freemarker.template.template_model;
 
 /**
- * "boolean" template language data type; same as in Java; either {@code true} or {@code false}.
+ * "collection" template language data type: a collection of values that can be enumerated, repeatedly (not just once).
+ * This is very similar to {@link freemarker.template.template_model.TemplateSequenceModel}, but it doesn't support indexed (random) access and
+ * its size can't be queried.
+ *  
+ * <p>They are mostly used in template languages like {@code <#list myCollection as i>...</#list>}.  
+ *
+ * @author Attila Szegedi, szegedia at users dot sourceforge dot net
  */
-public interface TemplateBooleanModel extends TemplateModel {
+public interface TemplateCollectionModel extends TemplateModel {
 
     /**
-     * @return whether to interpret this object as true or false in a boolean context
+     * Retrieves a template model iterator that is used to iterate over
+     * the elements in this collection.
      */
-    boolean getAsBoolean() throws TemplateModelException;
-    
-    /**
-     * A singleton object to represent boolean false
-     */
-    TemplateBooleanModel FALSE = new TemplateBooleanModel() {
-        public boolean getAsBoolean() {
-            return false;
-        }
-        private Object readResolve() {
-            return FALSE;
-        }
-    };
-
-    /**
-     * A singleton object to represent boolean true
-     */
-    TemplateBooleanModel TRUE = new TemplateBooleanModel() {
-        public boolean getAsBoolean() {
-            return true;
-        }
-        private Object readResolve() {
-            return TRUE;
-        }
-    };
-    
+    public TemplateModelIterator iterator() throws TemplateModelException;
 }

@@ -59,13 +59,13 @@ import freemarker.core.*;
 import freemarker.core.builtIn.NodeBuiltins.*;
 import freemarker.core.builtIn.NumericalBuiltins.*;
 import freemarker.core.builtIn.SequenceBuiltins.*;
-import freemarker.core.StringBuiltins.*;
+import freemarker.core.builtIn.StringBuiltins.*;
 import freemarker.core.exception.ParseException;
 import freemarker.core.util.EvalUtil;
 import freemarker.core.util.MessageUtil;
 import freemarker.log.Logger;
 import freemarker.template.Configuration;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateNumberModel;
@@ -86,7 +86,7 @@ public abstract class BuiltIn extends Expression implements Cloneable {
     protected Expression target;
     protected String key;
 
-    static final HashMap builtins = new HashMap();
+    public static final HashMap builtins = new HashMap();
     static {
         builtins.put("abs", new absBI());
         builtins.put("ancestors", new ancestorsBI());

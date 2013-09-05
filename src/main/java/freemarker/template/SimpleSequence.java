@@ -58,10 +58,7 @@ import java.util.Collection;
 import java.util.List;
 
 import freemarker.ext.beans.BeansWrapper;
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
-import freemarker.template.template_model.TemplateModelIterator;
-import freemarker.template.template_model.TemplateSequenceModel;
+import freemarker.template.template_model.*;
 
 /**
  * <p>A convenient implementation of a list. This
@@ -180,8 +177,8 @@ implements TemplateSequenceModel, Serializable {
 
     /**
      * Adds a boolean to the end of this <tt>SimpleSequence</tt>, by 
-     * coercing the boolean into {@link TemplateBooleanModel#TRUE} or 
-     * {@link TemplateBooleanModel#FALSE}.
+     * coercing the boolean into {@link freemarker.template.template_model.TemplateBooleanModel#TRUE} or
+     * {@link freemarker.template.template_model.TemplateBooleanModel#FALSE}.
      *
      * @param b the boolean to be added.
      */

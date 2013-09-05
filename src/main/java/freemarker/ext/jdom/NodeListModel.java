@@ -85,7 +85,7 @@ import org.jdom.output.XMLOutputter;
 import freemarker.template.SimpleHash;
 import freemarker.template.SimpleScalar;
 import freemarker.template.Template;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateMethodModel;
 import freemarker.template.template_model.TemplateModel;

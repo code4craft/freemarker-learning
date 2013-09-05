@@ -61,9 +61,7 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 import freemarker.ext.beans.BeansWrapper;
-import freemarker.template.template_model.TemplateHashModelEx;
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
+import freemarker.template.template_model.*;
 
 /**
  * <p>A simple implementation of the <tt>TemplateHashModelEx</tt>

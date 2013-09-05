@@ -53,8 +53,8 @@
 package freemarker.template.utility;
 
 import freemarker.template.SimpleNumber;
-import freemarker.template.TemplateBooleanModel;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

@@ -54,12 +54,10 @@ package freemarker.core.builtIn;
 
 import freemarker.core.Environment;
 import freemarker.core.util.EvalUtil;
-import freemarker.core._TemplateModelException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.template.*;
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
-import freemarker.template.template_model.TemplateNumberModel;
+import freemarker.template.template_model.*;
 import freemarker.template.utility.NumberUtil;
 
 import java.math.BigDecimal;

@@ -60,7 +60,7 @@ import freemarker.template.utility.DeepUnwrap;
 
 /**
  * "transform" template language data type: user-defined directives 
- * (much like macros) specialized on filtering output; you should rather use the newer {@link freemarker.template.TemplateDirectiveModel}
+ * (much like macros) specialized on filtering output; you should rather use the newer {@link TemplateDirectiveModel}
  * instead. This certainly will be deprecated in FreeMarker 2.4.
  * 
  * @author Attila Szegedi

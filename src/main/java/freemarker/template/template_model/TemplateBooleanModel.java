@@ -50,61 +50,40 @@
  * http://www.visigoths.org/
  */
 
-package freemarker.template;
-
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
+package freemarker.template.template_model;
 
 /**
- * "date" template language data type: similar to {@link java.util.Date}; a time-zone-independent date-only, time-only
- * or date-time value. Contrary to Java, FreeMarker distinguishes values that represent only a time, only a date, or a
- * combined date and time.
- *
- * @author Attila Szegedi
+ * "boolean" template language data type; same as in Java; either {@code true} or {@code false}.
  */
-public interface TemplateDateModel extends TemplateModel {
+public interface TemplateBooleanModel extends TemplateModel {
+
+    /**
+     * @return whether to interpret this object as true or false in a boolean context
+     */
+    boolean getAsBoolean() throws TemplateModelException;
     
     /**
-     * It is not known whether the date represents a time-only, a date-only, or a date-time value.
-     * This often leads to exceptions in templates due to ambiguities it causes, so avoid it if possible.
+     * A singleton object to represent boolean false
      */
-    public static final int UNKNOWN = 0;
+    TemplateBooleanModel FALSE = new TemplateBooleanModel() {
+        public boolean getAsBoolean() {
+            return false;
+        }
+        private Object readResolve() {
+            return FALSE;
+        }
+    };
 
     /**
-     * The date model represents a time-only value.
+     * A singleton object to represent boolean true
      */
-    public static final int TIME = 1;
-
-    /**
-     * The date model represents a date-only value.
-     */
-    public static final int DATE = 2;
-
-    /**
-     * The date model represents a date-time value.
-     */
-    public static final int DATETIME = 3;
-    
-    public static final List TYPE_NAMES =
-        Collections.unmodifiableList(
-            Arrays.asList(
-                new String[] {
-                    "UNKNOWN", "TIME", "DATE", "DATETIME"
-                }));
-    /**
-     * Returns the date value. The return value must not be {@code null}.
-     */
-    public Date getAsDate() throws TemplateModelException;
-
-    /**
-     * Returns the type of the date. It can be any of <tt>TIME</tt>, 
-     * <tt>DATE</tt>, or <tt>DATETIME</tt>.
-     */
-    public int getDateType();
+    TemplateBooleanModel TRUE = new TemplateBooleanModel() {
+        public boolean getAsBoolean() {
+            return true;
+        }
+        private Object readResolve() {
+            return TRUE;
+        }
+    };
     
 }

@@ -50,12 +50,11 @@
  * http://www.visigoths.org/
  */
 
-package freemarker.core;
+package freemarker.core.builtIn;
 
 import com.sun.xml.internal.xsom.impl.scd.SimpleCharStream;
-import freemarker.core.exception.NonNumericalException;
-import freemarker.core.exception.ParseException;
-import freemarker.core.exception.TokenMgrError;
+import freemarker.core.*;
+import freemarker.core.exception.*;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.core.nodes.Expression;
 import freemarker.core.util.MessageUtil;

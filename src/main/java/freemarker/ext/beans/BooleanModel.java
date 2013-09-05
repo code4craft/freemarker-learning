@@ -52,7 +52,7 @@
 
 package freemarker.ext.beans;
 
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 
 /**
  * <p>A class that will wrap instances of {@link java.lang.Boolean} into a

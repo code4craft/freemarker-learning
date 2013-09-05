@@ -53,7 +53,7 @@
 package freemarker.core.builtIn;
 
 import freemarker.core.Environment;
-import freemarker.core._MiscTemplateException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.ObjectWrapper;

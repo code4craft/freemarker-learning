@@ -55,7 +55,7 @@ package freemarker.core;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateModelIterator;

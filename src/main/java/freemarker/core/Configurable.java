@@ -71,6 +71,7 @@ import java.util.Set;
 import java.util.TimeZone;
 
 import freemarker.core.exception.ParseException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.util.MiscUtil;
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.Configuration;

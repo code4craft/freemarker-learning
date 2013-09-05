@@ -58,6 +58,7 @@ import freemarker.core.*;
 import freemarker.core.exception.InvalidReferenceException;
 import freemarker.core.exception.NonStringException;
 import freemarker.core.exception.UnexpectedTypeException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.util.EvalUtil;
 import freemarker.template.SimpleScalar;
 import freemarker.template.SimpleSequence;

@@ -1,6 +1,6 @@
 package freemarker.test.templatesuite.models;
 
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateScalarModel;
 

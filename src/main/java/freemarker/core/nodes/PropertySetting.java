@@ -57,7 +57,7 @@ import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
 import freemarker.core.exception.ParseException;
 import freemarker.template.Template;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateNumberModel;

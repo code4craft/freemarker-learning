@@ -62,6 +62,7 @@ import java.util.Map;
 
 import freemarker.core.*;
 import freemarker.core.exception.InvalidReferenceException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.util.MessageUtil;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;

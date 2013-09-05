@@ -72,7 +72,7 @@ import freemarker.template.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
 import freemarker.template.SimpleScalar;
 import freemarker.template.SimpleSequence;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

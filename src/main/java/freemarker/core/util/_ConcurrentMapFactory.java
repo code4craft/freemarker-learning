@@ -1,11 +1,11 @@
-package freemarker.core;
+package freemarker.core.util;
+
+import freemarker.template.utility.ClassUtil;
+import freemarker.template.utility.UndeclaredThrowableException;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-import freemarker.template.utility.ClassUtil;
-import freemarker.template.utility.UndeclaredThrowableException;
 
 /**
  * For internal usage only; don't depend on this!

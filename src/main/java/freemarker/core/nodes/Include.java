@@ -58,6 +58,7 @@ import freemarker.cache.TemplateCache;
 import freemarker.core.*;
 import freemarker.core.exception.NonBooleanException;
 import freemarker.core.exception.ParseException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.util.EvalUtil;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

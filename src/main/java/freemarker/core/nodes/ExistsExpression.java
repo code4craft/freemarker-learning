@@ -56,7 +56,7 @@ package freemarker.core.nodes;
 import freemarker.core.Environment;
 import freemarker.core.exception.InvalidReferenceException;
 import freemarker.core.ParameterRole;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;
 

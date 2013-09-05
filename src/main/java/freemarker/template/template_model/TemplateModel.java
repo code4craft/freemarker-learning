@@ -66,7 +66,7 @@ import freemarker.template.utility.ClassUtil;
  * is not made to wrap an earlier existing object; it's a value that has always existed in the template language's
  * domain. Users can also write {@link TemplateModel} implementations and put them directly into the data-model for
  * full control over how that object is seen from the template. Certain {@link TemplateModel} interfaces may doesn't
- * even have equivalent in Java. For example the directive type ({@link freemarker.template.TemplateDirectiveModel}) is like that.
+ * even have equivalent in Java. For example the directive type ({@link TemplateDirectiveModel}) is like that.
  * 
  * <p>Because {@link TemplateModel} "subclasses" are all interfaces, a value in the template language can have multiple
  * types. However, to prevent ambiguous situations, it's not recommended to make values that implement more than one of

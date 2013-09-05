@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.Map;
 
 import freemarker.core.Environment;
-import freemarker.template.TemplateBooleanModel;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
+import freemarker.template.template_model.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

@@ -55,7 +55,7 @@ package freemarker.ext.beans;
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
 
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateModelIterator;

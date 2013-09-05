@@ -52,6 +52,7 @@
 
 package freemarker.template;
 
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateModelIterator;
@@ -61,7 +62,7 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
- * A simple implementation of {@link TemplateCollectionModel}.
+ * A simple implementation of {@link freemarker.template.template_model.TemplateCollectionModel}.
  * It's able to wrap <tt>java.util.Iterator</tt>-s and <tt>java.util.Collection</tt>-s.
  * If you wrap an <tt>Iterator</tt>, the variable can be &lt;list>-ed (&lt;forach>-ed) only once!
  *

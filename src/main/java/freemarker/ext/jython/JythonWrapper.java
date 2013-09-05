@@ -71,7 +71,7 @@ import freemarker.ext.util.ModelCache;
 import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.template.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateMethodModel;

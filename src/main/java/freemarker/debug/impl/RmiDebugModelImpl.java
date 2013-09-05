@@ -7,9 +7,9 @@ import java.util.Date;
 import java.util.List;
 
 import freemarker.debug.DebugModel;
-import freemarker.template.TemplateBooleanModel;
-import freemarker.template.TemplateCollectionModel;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateMethodModel;

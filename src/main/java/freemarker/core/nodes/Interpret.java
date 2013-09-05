@@ -54,6 +54,8 @@ package freemarker.core.nodes;
 
 import freemarker.core.*;
 import freemarker.core.exception.UnexpectedTypeException;
+import freemarker.core.exception._MiscTemplateException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.util.MessageUtil;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

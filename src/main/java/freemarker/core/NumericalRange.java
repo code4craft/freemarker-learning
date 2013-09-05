@@ -52,6 +52,7 @@
 
 package freemarker.core;
 
+import freemarker.core.exception._TemplateModelException;
 import freemarker.template.SimpleNumber;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

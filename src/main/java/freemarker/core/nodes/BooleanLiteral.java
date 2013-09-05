@@ -55,7 +55,7 @@ package freemarker.core.nodes;
 import freemarker.core.Environment;
 import freemarker.core.util.MiscUtil;
 import freemarker.core.ParameterRole;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateModel;
 
 public final class BooleanLiteral extends Expression {

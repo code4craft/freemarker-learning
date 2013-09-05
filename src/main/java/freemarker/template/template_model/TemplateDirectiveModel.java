@@ -1,11 +1,12 @@
-package freemarker.template;
+package freemarker.template.template_model;
+
+import freemarker.core.Environment;
+import freemarker.template.TemplateDirectiveBody;
+import freemarker.template.TemplateException;
+import freemarker.template.utility.DeepUnwrap;
 
 import java.io.IOException;
 import java.util.Map;
-
-import freemarker.core.Environment;
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.utility.DeepUnwrap;
 
 /**
  * "directive" template language data type: used as user-defined directives 
@@ -43,7 +44,7 @@ public interface TemplateDirectiveModel extends TemplateModel
      * [@myDirective /] or [@myDirective][/@myDirective]), then this will be
      * <code>null</code>.
      *
-     * @throws TemplateException
+     * @throws freemarker.template.TemplateException
      * @throws IOException
      */
    public void execute(Environment env, Map params, TemplateModel[] loopVars, 

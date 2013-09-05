@@ -56,7 +56,7 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.Map;
 
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateModelException;
 import freemarker.template.template_model.TemplateNumberModel;
 import freemarker.template.template_model.TemplateTransformModel;

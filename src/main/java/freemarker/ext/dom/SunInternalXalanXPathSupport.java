@@ -55,6 +55,7 @@ package freemarker.ext.dom;
 import freemarker.template.*;
 import freemarker.core.Environment;
 
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
 import org.w3c.dom.*;

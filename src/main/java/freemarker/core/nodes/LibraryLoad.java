@@ -57,7 +57,7 @@ import java.io.IOException;
 import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
 import freemarker.core.exception.ParseException;
-import freemarker.core._MiscTemplateException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 

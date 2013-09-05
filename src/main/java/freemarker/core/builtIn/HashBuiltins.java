@@ -6,7 +6,7 @@ import freemarker.core._ErrorDescriptionBuilder;
 import freemarker.core.exception.InvalidReferenceException;
 import freemarker.core.exception.UnexpectedTypeException;
 import freemarker.core.nodes.BuiltIn;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;

@@ -60,6 +60,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 import freemarker.core.*;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.SimpleSequence;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateMethodModel;

@@ -2,6 +2,8 @@ package freemarker.core.builtIn;
 
 import freemarker.core.*;
 import freemarker.core.exception.UnexpectedTypeException;
+import freemarker.core.exception._MiscTemplateException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.core.nodes.Macro;
 import freemarker.core.util.EvalUtil;

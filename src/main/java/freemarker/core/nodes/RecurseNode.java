@@ -56,6 +56,7 @@ import java.io.IOException;
 
 import freemarker.core.*;
 import freemarker.core.exception.UnexpectedTypeException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.SimpleSequence;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateHashModel;

@@ -61,7 +61,7 @@ import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.template.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
 import freemarker.template.SimpleSequence;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateMethodModelEx;
 import freemarker.template.template_model.TemplateModel;

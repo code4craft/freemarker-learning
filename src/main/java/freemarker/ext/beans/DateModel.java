@@ -56,7 +56,7 @@ import java.util.Date;
 
 import freemarker.ext.util.ModelFactory;
 import freemarker.template.ObjectWrapper;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.template_model.TemplateModel;
 
 /**

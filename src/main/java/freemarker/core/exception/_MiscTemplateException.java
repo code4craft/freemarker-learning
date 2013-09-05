@@ -1,5 +1,7 @@
-package freemarker.core;
+package freemarker.core.exception;
 
+import freemarker.core.Environment;
+import freemarker.core._ErrorDescriptionBuilder;
 import freemarker.core.nodes.Expression;
 import freemarker.template.TemplateException;
 

@@ -70,9 +70,9 @@ import freemarker.template.template_model.TemplateModelException;
  * wrapped object as the key. Note that you can call <tt>get()</tt> using the
  * <tt>map.key</tt> syntax inherited from {@link BeanModel} as well, 
  * however in that case the key is always a string.</p>
- * <p>The class itself does not implement the {@link freemarker.template.TemplateCollectionModel}.
+ * <p>The class itself does not implement the {@link freemarker.template.template_model.TemplateCollectionModel}.
  * You can, however use <tt>map.entrySet()</tt>, <tt>map.keySet()</tt>, or
- * <tt>map.values()</tt> to obtain {@link freemarker.template.TemplateCollectionModel} instances for 
+ * <tt>map.values()</tt> to obtain {@link freemarker.template.template_model.TemplateCollectionModel} instances for
  * various aspects of the map.</p>
  * @author Attila Szegedi
  */

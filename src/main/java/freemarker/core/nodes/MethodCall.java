@@ -64,7 +64,7 @@ import java.util.List;
 import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
 import freemarker.core.exception.UnexpectedTypeException;
-import freemarker.core._MiscTemplateException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateMethodModel;
 import freemarker.template.template_model.TemplateMethodModelEx;

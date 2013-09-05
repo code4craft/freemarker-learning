@@ -1,6 +1,8 @@
 package freemarker.core.util;
 
 import freemarker.core.*;
+import freemarker.core.exception._MiscTemplateException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.*;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

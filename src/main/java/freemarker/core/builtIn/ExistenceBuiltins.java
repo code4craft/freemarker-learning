@@ -6,7 +6,7 @@ import freemarker.core.exception.InvalidReferenceException;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.core.nodes.Expression;
 import freemarker.core.nodes.ParentheticalExpression;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateMethodModelEx;
 import freemarker.template.template_model.TemplateModel;

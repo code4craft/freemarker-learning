@@ -64,7 +64,7 @@ import org.w3c.dom.Text;
 
 import freemarker.template.SimpleHash;
 import freemarker.template.SimpleScalar;
-import freemarker.template.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateMethodModel;
 import freemarker.template.template_model.TemplateModel;

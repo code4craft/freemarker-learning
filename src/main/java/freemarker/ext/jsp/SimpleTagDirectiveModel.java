@@ -14,7 +14,7 @@ import javax.servlet.jsp.tagext.Tag;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateDirectiveModel;
+import freemarker.template.template_model.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.io.Writer;
 
 /**
- * Represents the nested content of a directive ({@link TemplateDirectiveModel}) invocation. An implementation of this 
- * class is passed to {@link TemplateDirectiveModel#execute(freemarker.core.Environment, 
+ * Represents the nested content of a directive ({@link freemarker.template.template_model.TemplateDirectiveModel}) invocation. An implementation of this
+ * class is passed to {@link freemarker.template.template_model.TemplateDirectiveModel#execute(freemarker.core.Environment,
  * java.util.Map, freemarker.template.template_model.TemplateModel[], TemplateDirectiveBody)}. The implementation of the method is
  * free to invoke it for any number of times, with any writer.
  *

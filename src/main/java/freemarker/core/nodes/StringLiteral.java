@@ -56,7 +56,7 @@ import com.sun.xml.internal.xsom.impl.scd.SimpleCharStream;
 import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
 import freemarker.core.exception.ParseException;
-import freemarker.core._MiscTemplateException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.SimpleScalar;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;

@@ -60,7 +60,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 import freemarker.log.Logger;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;

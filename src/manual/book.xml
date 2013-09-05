@@ -3855,7 +3855,7 @@ ${("green " + "mouse")?upper_case} &lt;#-- GREEN MOUSE --&gt;
         directive. <phrase role="forProgrammers">Java programmers who want to
         implement directives in Java Language, rather than in a template,
         should use
-        <literal>freemarker.template.TemplateDirectiveModel</literal> (see
+        <literal>freemarker.template.template_model.TemplateDirectiveModel</literal> (see
         <link linkend="pgui_datamodel_directive">more
         here...</link>).</phrase></para>
 
@@ -19958,7 +19958,7 @@ TemplateModel x = env.getVariable("x");  // get variable x</programlisting>
             <para>It's not possible (yet), but something very similar is
             possible if you write a class that implements
             <literal>freemarker.template.template_model.TemplateMethodModelEx</literal> or
-            <literal>freemarker.template.TemplateDirectiveModel</literal>
+            <literal>freemarker.template.template_model.TemplateDirectiveModel</literal>
             respectively, and then where you were write <literal>&lt;#function
             my
             <replaceable>...</replaceable>&gt;<replaceable>...</replaceable>&lt;/#function&gt;</literal>
@@ -21195,7 +21195,7 @@ TemplateModel x = env.getVariable("x");  // get variable x</programlisting>
             <listitem>
               <para><literal>?seq_index_of</literal> and
               <literal>?seq_last_index_of</literal> now works on collections
-              (<literal>freemarker.template.TemplateCollectionModel</literal>-s)
+              (<literal>freemarker.template.template_model.TemplateCollectionModel</literal>-s)
               too, not only on sequences
               (<literal>freemarker.template.template_model.TemplateSequenceModel</literal>-s).</para>
             </listitem>

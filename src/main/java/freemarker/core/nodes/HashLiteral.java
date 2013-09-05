@@ -60,7 +60,7 @@ import freemarker.core.CollectionAndSequence;
 import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
 import freemarker.template.SimpleSequence;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;

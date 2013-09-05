@@ -55,12 +55,14 @@ package freemarker.core.util;
 import freemarker.core.*;
 import freemarker.core.exception.InvalidReferenceException;
 import freemarker.core.exception.NonStringException;
+import freemarker.core.exception._MiscTemplateException;
+import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.Expression;
 import freemarker.ext.beans.BeanModel;
 import freemarker.ext.beans._BeansAPI;
-import freemarker.template.TemplateBooleanModel;
-import freemarker.template.TemplateCollectionModel;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.*;
 

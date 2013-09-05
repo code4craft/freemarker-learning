@@ -57,6 +57,7 @@ import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.TemplateException;
 import freemarker.template.utility.NumberUtil;
 import freemarker.template.utility.OptimizerUtil;

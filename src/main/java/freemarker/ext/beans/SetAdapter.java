@@ -2,7 +2,7 @@ package freemarker.ext.beans;
 
 import java.util.Set;
 
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 
 /**
  * @author Attila Szegedi

@@ -84,7 +84,7 @@ import java.util.ResourceBundle;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import freemarker.core._ConcurrentMapFactory;
+import freemarker.core.util._ConcurrentMapFactory;
 import freemarker.ext.util.IdentityHashMap;
 import freemarker.ext.util.ModelCache;
 import freemarker.ext.util.ModelFactory;
@@ -92,9 +92,9 @@ import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.log.Logger;
 import freemarker.template.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
-import freemarker.template.TemplateBooleanModel;
-import freemarker.template.TemplateCollectionModel;
-import freemarker.template.TemplateDateModel;
+import freemarker.template.template_model.TemplateBooleanModel;
+import freemarker.template.template_model.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
@@ -493,8 +493,8 @@ public class BeansWrapper implements ObjectWrapper
      * <li>if the object is a Number returns a {@link NumberModel} for it,</li>
      * <li>if the object is a Date returns a {@link DateModel} for it,</li>
      * <li>if the object is a Boolean returns 
-     * {@link freemarker.template.TemplateBooleanModel#TRUE} or 
-     * {@link freemarker.template.TemplateBooleanModel#FALSE}</li>
+     * {@link freemarker.template.template_model.TemplateBooleanModel#TRUE} or
+     * {@link freemarker.template.template_model.TemplateBooleanModel#FALSE}</li>
      * <li>if the object is already a TemplateModel, returns it unchanged,</li>
      * <li>if the object is an array, returns a {@link ArrayModel} for it
      * <li>if the object is a Map, returns a {@link MapModel} for it

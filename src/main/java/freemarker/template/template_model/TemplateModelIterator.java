@@ -54,7 +54,7 @@ package freemarker.template.template_model;
 
 /**
  * Used to iterate over a set of template models <em>once</em>; usually returned from
- * {@link freemarker.template.TemplateCollectionModel#iterator()}. Note that it's not a {@link TemplateModel}.
+ * {@link TemplateCollectionModel#iterator()}. Note that it's not a {@link TemplateModel}.
  * 
  * @author Attila Szegedi, szegedia at users dot sourceforge dot net
  */

@@ -61,7 +61,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import freemarker.template.SimpleCollection;
 import freemarker.template.SimpleScalar;
-import freemarker.template.TemplateCollectionModel;
+import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateHashModelEx;
 import freemarker.template.template_model.TemplateModel;
 

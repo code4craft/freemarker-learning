@@ -52,6 +52,7 @@
 
 package freemarker.core;
 
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.core.util.MessageUtil;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

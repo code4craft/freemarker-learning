@@ -55,7 +55,7 @@ package freemarker.core.nodes;
 import freemarker.core.ArithmeticEngine;
 import freemarker.core.Environment;
 import freemarker.core.ParameterRole;
-import freemarker.core._MiscTemplateException;
+import freemarker.core.exception._MiscTemplateException;
 import freemarker.template.SimpleNumber;
 import freemarker.template.TemplateException;
 import freemarker.template.template_model.TemplateModel;

@@ -54,7 +54,7 @@ package freemarker.cache;
 
 import java.util.Map;
 
-import freemarker.core._ConcurrentMapFactory;
+import freemarker.core.util._ConcurrentMapFactory;
 
 /**
  * Strong cache storage is a cache storage that simply wraps a {@link Map}.
