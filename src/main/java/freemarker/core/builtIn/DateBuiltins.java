@@ -60,7 +60,7 @@ import freemarker.core.exception._TemplateModelException;
 import freemarker.core.nodes.BuiltIn;
 import freemarker.core.util.EvalUtil;
 import freemarker.core.util.MessageUtil;
-import freemarker.template.AdapterTemplateModel;
+import freemarker.template.template_model.AdapterTemplateModel;
 import freemarker.template.SimpleScalar;
 import freemarker.template.template_model.TemplateDateModel;
 import freemarker.template.TemplateException;

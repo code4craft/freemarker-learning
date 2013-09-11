@@ -52,18 +52,18 @@
 
 package freemarker.core.nodes;
 
-import java.io.IOException;
-
 import freemarker.core.Environment;
-import freemarker.core.nodes.Expression.ReplacemenetState;
 import freemarker.core.ParameterRole;
+import freemarker.core.nodes.Expression.ReplacemenetState;
 import freemarker.template.TemplateException;
+
+import java.io.IOException;
 
 /**
  * Representation of the compile-time #escape directive.
  * @author Attila Szegedi
  */
-class EscapeBlock extends TemplateElement {
+public class EscapeBlock extends TemplateElement {
 
     private final String variable;
     private final Expression expr;
@@ -88,7 +88,7 @@ class EscapeBlock extends TemplateElement {
         }
     }
 
-    Expression doEscape(Expression expression) {
+    public Expression doEscape(Expression expression) {
         return escapedExpr.deepCloneWithIdentifierReplaced(variable, expression, new ReplacemenetState());
     }
 
@@ -106,7 +106,7 @@ class EscapeBlock extends TemplateElement {
         return "#escape";
     }
     
-    boolean isShownInStackTrace() {
+    public boolean isShownInStackTrace() {
         return false;
     }
     

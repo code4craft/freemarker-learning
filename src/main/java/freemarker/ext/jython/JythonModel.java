@@ -61,7 +61,7 @@ import org.python.core.PyObject;
 
 import freemarker.ext.util.ModelFactory;
 import freemarker.ext.util.WrapperTemplateModel;
-import freemarker.template.AdapterTemplateModel;
+import freemarker.template.template_model.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
 import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateHashModel;

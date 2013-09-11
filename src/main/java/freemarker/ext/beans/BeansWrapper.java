@@ -52,59 +52,25 @@
 
 package freemarker.ext.beans;
 
-import java.beans.BeanInfo;
-import java.beans.IndexedPropertyDescriptor;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.MethodDescriptor;
-import java.beans.PropertyDescriptor;
-import java.io.InputStream;
-import java.lang.reflect.AccessibleObject;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.StringTokenizer;
-
 import freemarker.core.util._ConcurrentMapFactory;
 import freemarker.ext.util.IdentityHashMap;
 import freemarker.ext.util.ModelCache;
 import freemarker.ext.util.ModelFactory;
 import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.log.Logger;
-import freemarker.template.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
-import freemarker.template.template_model.TemplateBooleanModel;
-import freemarker.template.template_model.TemplateCollectionModel;
-import freemarker.template.template_model.TemplateDateModel;
-import freemarker.template.template_model.TemplateHashModel;
-import freemarker.template.template_model.TemplateModel;
-import freemarker.template.template_model.TemplateModelException;
-import freemarker.template.template_model.TemplateNumberModel;
-import freemarker.template.template_model.TemplateScalarModel;
-import freemarker.template.template_model.TemplateSequenceModel;
+import freemarker.template.template_model.*;
 import freemarker.template.utility.ClassUtil;
 import freemarker.template.utility.Collections12;
 import freemarker.template.utility.SecurityUtilities;
 import freemarker.template.utility.UndeclaredThrowableException;
+
+import java.beans.*;
+import java.io.InputStream;
+import java.lang.reflect.*;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.*;
 
 /**
  * Utility class that provides generic services to reflection classes.

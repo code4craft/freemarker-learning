@@ -69,7 +69,7 @@ import freemarker.ext.beans.OverloadedMethodsModel;
 import freemarker.ext.beans.SimpleMethodModel;
 import freemarker.ext.beans.StringModel;
 import freemarker.ext.util.WrapperTemplateModel;
-import freemarker.template.AdapterTemplateModel;
+import freemarker.template.template_model.AdapterTemplateModel;
 import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateCollectionModel;
 import freemarker.template.template_model.TemplateDateModel;

@@ -1,6 +1,4 @@
-package freemarker.template;
-
-import freemarker.template.template_model.TemplateModel;
+package freemarker.template.template_model;
 
 /**
  * A {@link TemplateModel} that can be unwrapped and then it considers a provided desired (hint) class. This is
@@ -9,7 +7,7 @@ import freemarker.template.template_model.TemplateModel;
  * when we pass it to a Jython method.
  * 
  * <p>This is rarely implemented by applications. It is typically implemented by the model classes belonging to
- * {@link ObjectWrapper}-s.
+ * {@link freemarker.template.ObjectWrapper}-s.
  *   
  * @author Attila Szegedi
  */

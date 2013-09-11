@@ -82,7 +82,7 @@ import org.xml.sax.SAXException;
 
 import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.log.Logger;
-import freemarker.template.AdapterTemplateModel;
+import freemarker.template.template_model.AdapterTemplateModel;
 import freemarker.template.SimpleScalar;
 import freemarker.template.template_model.TemplateHashModel;
 import freemarker.template.template_model.TemplateModel;

@@ -9,7 +9,7 @@ import org.mozilla.javascript.ScriptableObject;
 
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.ext.util.ModelFactory;
-import freemarker.template.AdapterTemplateModel;
+import freemarker.template.template_model.AdapterTemplateModel;
 import freemarker.template.ObjectWrapper;
 import freemarker.template.template_model.TemplateBooleanModel;
 import freemarker.template.template_model.TemplateCollectionModel;

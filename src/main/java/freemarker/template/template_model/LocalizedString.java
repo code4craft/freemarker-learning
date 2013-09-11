@@ -1,10 +1,8 @@
-package freemarker.template;
-
-import java.util.Locale;
+package freemarker.template.template_model;
 
 import freemarker.core.Environment;
-import freemarker.template.template_model.TemplateModelException;
-import freemarker.template.template_model.TemplateScalarModel;
+
+import java.util.Locale;
 
 /**
  * An abstract base class for scalars that vary by locale.

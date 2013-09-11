@@ -1,13 +1,11 @@
-package freemarker.template;
-
-import freemarker.template.template_model.TemplateModelException;
+package freemarker.template.template_model;
 
 import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 /**
- * A concrete implementation of {@link LocalizedString} that gets 
+ * A concrete implementation of {@link freemarker.template.template_model.LocalizedString} that gets
  * a localized string from a {@link java.util.ResourceBundle}  
  * @author Jonathan Revusky
  */

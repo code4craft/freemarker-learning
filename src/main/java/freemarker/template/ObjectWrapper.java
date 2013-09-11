@@ -52,14 +52,14 @@
 
 package freemarker.template;
 
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
-
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.ext.util.WrapperTemplateModel;
 import freemarker.template.template_model.TemplateModel;
 import freemarker.template.template_model.TemplateModelException;
+
+import java.util.List;
+import java.util.Map;
+import java.util.ResourceBundle;
 
 /**
  * Maps Java objects to the type-system of FreeMarker Template Language (see the {@link TemplateModel}
@@ -109,7 +109,7 @@ public interface ObjectWrapper {
      *      it should just return the object as is.
      * 
      * @return a {@link freemarker.template.template_model.TemplateModel} wrapper of the object passed in. To support un-wrapping, you may consider the
-     *     return value to implement {@link WrapperTemplateModel} and {@link AdapterTemplateModel}.
+     *     return value to implement {@link WrapperTemplateModel} and {@link freemarker.template.template_model.AdapterTemplateModel}.
      */
     TemplateModel wrap(Object obj) throws TemplateModelException;
     
